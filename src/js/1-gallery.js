@@ -84,7 +84,7 @@ galleryList.insertAdjacentHTML('beforeend', itemMarkup);
   }).join('');
 }
 const lightbox = new SimpleLightbox('.gallery a', {
-  captionsData: 'alt', captionPosition: 'bottom', captionDelay: 250
+  captionsData: 'alt', captionDelay: 250
 });
 function setColor(selector, color) {
 const elements = document.querySelectorAll(selector);
